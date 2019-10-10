@@ -641,6 +641,7 @@ h5.subtitle {
     color: #fff;
     background: #635CDB;
     display: inline-block;
+	border-radius: 50px;
     padding: 3px 8px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -1273,6 +1274,40 @@ h5.subtitle {
 .footer-widget a {
     color: #999;
 }
+
+.flex-card{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.box{
+	width:285px;
+	padding: 10px 40px 10px 10px;
+	background-color:#F5F5F5;
+	border-radius: 50px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.text h2{
+	color: #212121;
+	font-size: 0.9em;
+	letter-spacing: .01em;
+}
+
+.image img{
+	width:70px;
+	height:auto;
+	border-radius: 50px;
+}
+
+.call img{
+	width:27px;
+}
+
+	
+
+
 
 
 /* =======================================
